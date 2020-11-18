@@ -33,4 +33,18 @@ public class Hotel {
     public int conferenceRoomCount(){
         return this.conferenceRooms.size();
     }
+
+    public void addGuestToBedroom(Bedroom bedroom, Guest guest) {
+        bedroom.addGuest(guest);
+    }
+
+    public void removeGuestFromBedroom(Bedroom bedroom) {
+        bedroom.removeGuest();
+    }
+
+    public Booking bookRoom(Bedroom bedroom, Guest guest, int nightsBooked) {
+        addGuestToBedroom(bedroom, guest);
+        Booking booking = new Booking(guest,nightsBooked, bedroom);
+        return booking;
+    }
 }

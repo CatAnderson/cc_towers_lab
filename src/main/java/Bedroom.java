@@ -5,12 +5,14 @@ public class Bedroom {
     private int capacity;
     private ArrayList<Guest> guests;
     private char type;
+    private double nightlyRate;
 
-    public Bedroom(int roomNo, int capacity, char type) {
+    public Bedroom(int roomNo, int capacity, char type, double nightlyRate) {
         this.roomNo = roomNo;
         this.capacity = capacity;
         this.guests = new ArrayList<>();
         this.type = type;
+        this.nightlyRate = nightlyRate;
     }
 
     public int getRoomNo() {
@@ -37,6 +39,9 @@ public class Bedroom {
 
     public char typeCheck() {
         return this.type;
-        
+
+    }
+    public double getNightlyRate(){
+        return this.nightlyRate;
     }
 }
