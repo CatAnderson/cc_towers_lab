@@ -33,4 +33,21 @@ public void canAddGuest(){
     bedroom1.addGuest(guest);
     assertEquals(2, bedroom1.guestCount());
 }
+
+@Test
+public void canRemoveGuest(){
+    bedroom1.addGuest(guest);
+    bedroom1.removeGuest();
+    assertEquals(0, bedroom1.guestCount());
+}
+
+@Test
+public void hasCapacity(){
+    assertEquals(2, bedroom1.capacityCheck());
+}
+
+@Test
+public void hasType() {
+    assertEquals('D', bedroom1.typeCheck());
+}        
 }

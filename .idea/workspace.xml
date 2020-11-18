@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="04d08aba-746d-4d03-a73a-2cd0111262e1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BedroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Bedroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Bedroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConferenceRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConferenceRoom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BedroomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BedroomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ConferenceRoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ConferenceRoomTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.BedroomTest">
+  <component name="RunManager" selected="JUnit.ConferenceRoomTest.canRemoveGuest">
     <configuration name="BedroomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -56,19 +59,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConferenceRoomTest.canAddGuest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GuestTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ConferenceRoomTest" />
+      <option name="METHOD_NAME" value="canAddGuest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConferenceRoomTest.canRemoveGuest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConferenceRoomTest" />
+      <option name="METHOD_NAME" value="canRemoveGuest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConferenceRoomTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConferenceRoomTest" />
+      <option name="METHOD_NAME" value="hasName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConferenceRoomTest.startsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ConferenceRoomTest" />
+      <option name="METHOD_NAME" value="startsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ConferenceRoomTest.canRemoveGuest" />
+        <item itemvalue="JUnit.ConferenceRoomTest.canAddGuest" />
+        <item itemvalue="JUnit.ConferenceRoomTest.startsEmpty" />
+        <item itemvalue="JUnit.ConferenceRoomTest.hasName" />
         <item itemvalue="JUnit.BedroomTest" />
-        <item itemvalue="JUnit.GuestTest" />
       </list>
     </recent_temporary>
   </component>
@@ -86,21 +123,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1605699602796">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1605701042819">
       <screen x="-120" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605699602796" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1605699602796">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605701042819" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1605701042818">
       <screen x="-120" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605699602796" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1605699602795">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605701042818" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1605701042818">
       <screen x="-120" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605699602795" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1605699602796">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605701042818" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1605701042819">
       <screen x="-120" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605699602796" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605701042819" />
+    <state x="537" y="-832" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605700508718">
+      <screen x="-120" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="537" y="-832" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605700508718" />
+    <state x="414" y="-941" width="852" height="825" key="find.popup" timestamp="1605700097821">
+      <screen x="-120" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="414" y="-941" width="852" height="825" key="find.popup/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605700097821" />
   </component>
 </project>
