@@ -49,5 +49,5 @@ public void hasCapacity(){
 @Test
 public void hasType() {
     assertEquals('D', bedroom1.typeCheck());
-}        
+}
 }
