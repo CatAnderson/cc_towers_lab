@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04d08aba-746d-4d03-a73a-2cd0111262e1" name="Default Changelist" comment="" />
+    <list default="true" id="04d08aba-746d-4d03-a73a-2cd0111262e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiningRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DiningRoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.All in CodeClanTowers">
+  <component name="RunManager" selected="JUnit.DiningRoomTest.canAddGuest">
     <configuration name="All in CodeClanTowers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -58,16 +63,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookingTest.hasBedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanTowers" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookingTest" />
-      <option name="METHOD_NAME" value="hasBedroom" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BookingTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,11 +73,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest.canBookRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiningRoomTest.canAddGuest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="canBookRoom" />
+      <option name="MAIN_CLASS_NAME" value="DiningRoomTest" />
+      <option name="METHOD_NAME" value="canAddGuest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiningRoomTest.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiningRoomTest" />
+      <option name="METHOD_NAME" value="hasName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DiningRoomTest.canAddGuest" />
+        <item itemvalue="JUnit.DiningRoomTest.hasName" />
         <item itemvalue="JUnit.All in CodeClanTowers" />
         <item itemvalue="JUnit.BookingTest.getTotalBill" />
         <item itemvalue="JUnit.BookingTest.hasName" />
-        <item itemvalue="JUnit.HotelTest.canBookRoom" />
-        <item itemvalue="JUnit.BookingTest.hasBedroom" />
       </list>
     </recent_temporary>
   </component>
@@ -116,22 +121,22 @@
       <screen x="-120" y="-1057" width="1920" height="1057" />
     </state>
     <state x="-20" y="-957" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605708674442" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1605711830694">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1605713647212">
       <screen x="-120" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605711830694" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1605711830693">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605713647212" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1605713647212">
       <screen x="-120" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605711830693" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1605711830692">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605713647212" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1605713647212">
       <screen x="-120" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605711830692" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1605711830693">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605713647212" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1605713647212">
       <screen x="-120" y="-1057" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605711830693" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1280.709/-120.-1057.1920.1057@-120.-1057.1920.1057" timestamp="1605713647212" />
     <state x="537" y="-832" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605700508718">
       <screen x="-120" y="-1057" width="1920" height="1057" />
     </state>

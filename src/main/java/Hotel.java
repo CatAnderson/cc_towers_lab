@@ -1,16 +1,18 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Hotel {
 
     private String name;
     private ArrayList<Bedroom> bedrooms;
     private ArrayList<ConferenceRoom> conferenceRooms;
+    private HashMap<String, DiningRoom> diningRooms;
 
     public Hotel(String name){
         this.name = name;
         this.bedrooms = new ArrayList<>();
         this.conferenceRooms = new ArrayList<>();
-        
+        this.diningRooms = new HashMap<>();
 
     }
 
